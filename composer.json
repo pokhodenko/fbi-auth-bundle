@@ -1,5 +1,5 @@
 {
-  "name": "FBI/test-auth-bundle",
+  "name": "FBITest/test-auth-bundle",
   "description": "Test task bundle that provide oauth login functionality",
   "require": {
     "php": "^5.6 || ^7.0",
