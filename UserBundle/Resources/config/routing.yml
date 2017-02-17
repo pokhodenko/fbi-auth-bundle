@@ -1,0 +1,3 @@
+login:
+    path:     /
+    defaults: { _controller: FBIUserBundle:Security:login }

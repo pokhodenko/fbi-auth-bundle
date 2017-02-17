@@ -1,0 +1,8 @@
+services:
+    fbi.oauth.user.provider:
+        class: FBI\UserBundle\Service\OauthUserProvider
+        arguments: ["@doctrine", "@security.password_encoder"]
+
+#    fbi_user.example:
+#        class: FBI\UserBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
